@@ -6,10 +6,9 @@
   "main": "app.js",
   "scripts": {
     "grunt": "grunt",
-    "start": "node app.js",    
+    "start": "node app.js",
     "stop": "pkill --signal SIGINT letschat",
-    "test": "eslint .",
-    "test-iast": "eslint --require ./agent_linux64.node test/*.js"
+    "test": "eslint ."
   },
   "engine": {
     "node": "0.10.x",
