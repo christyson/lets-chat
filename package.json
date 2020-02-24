@@ -6,7 +6,7 @@
   "main": "app.js",
   "scripts": {
     "grunt": "grunt",
-    "start": "node app.js",
+    "start": "node app.js",    
     "stop": "pkill --signal SIGINT letschat",
     "test": "mocha test/*.js",
     "test-iast": "mocha --require ./agent_linux64.node test/*.js"
