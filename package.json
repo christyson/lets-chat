@@ -10,8 +10,6 @@
     "stop": "pkill --signal SIGINT letschat",
     "test": "mocha test/*.js",
     "test-iast": "mocha --require ./agent_linux64.node test/*.js"
-},
-
   },
   "engine": {
     "node": "0.10.x",
